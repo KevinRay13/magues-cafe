@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './home.scss';
+import Reviews from './Reviews';
 
 class Home extends Component {
   render() {
@@ -53,7 +54,9 @@ class Home extends Component {
             </ul>
           </div>
           <div>
-            <h2>Reviews Carousel</h2>
+            <h2>Reviews</h2>
+
+            <Reviews />
           </div>
         </div>
       </div>

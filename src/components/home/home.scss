@@ -64,3 +64,68 @@
 .our-story-title {
   width: 40vw;
 }
+.review {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.reviewContent {
+  font-family: 'Kalam', cursive;
+
+  width: 75vw;
+  height: 60vh;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  color: white;
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: #343a40 2px 2px;
+  min-width: 90%;
+  min-height: 12em;
+}
+.revTitle {
+  background-image: url('../../images/paint.jpg');
+  background-position: center;
+  height: 2.5em;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+
+  font-family: 'Atma', cursive;
+  font-size: 4em;
+  text-align: center;
+  line-height: 2.5em;
+  margin-bottom: 0;
+}
+.revSubTitle {
+  font-family: 'Atma', cursive;
+  font-size: 1.5em;
+}
+.customer {
+  display: flex;
+  font-size: 1rem;
+  margin: 0.2em;
+  align-content: center;
+  align-self: center;
+}
+.customerReview {
+  display: flex;
+  margin: 0.2em;
+  font-size: 1.2rem;
+  align-self: center;
+  align-items: center;
+}
+.rev1 {
+  background-image: url(http://flacostacosonline.com/wp-content/uploads/2015/08/tacobg.png);
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

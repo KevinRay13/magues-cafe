@@ -15,27 +15,27 @@ class Navbar extends Component {
           <div className='navbar-links-container'>
             <ul className='navbar-links'>
               <li className=''>
-                <Link to='/' className='link'>
+                <Link to='/' className='link' id='link'>
                   Home
                 </Link>
               </li>
               <li className=''>
-                <Link to='/contact' className='link'>
+                <Link to='/contact' className='link' id='link'>
                   Contact
                 </Link>
               </li>
               <li className=''>
-                <Link to='/location' className='link'>
+                <Link to='/location' className='link' id='link'>
                   Location
                 </Link>
               </li>
               <li className=''>
-                <Link to='/menu' className='link'>
+                <Link to='/menu' className='link' id='link'>
                   Menu
                 </Link>
               </li>
               <li className=''>
-                <Link to='/about' className='link'>
+                <Link to='/about' className='link' id='link'>
                   About
                 </Link>
               </li>

@@ -54,7 +54,10 @@ class Home extends Component {
             </ul>
           </div>
           <div>
-            <h2>Reviews</h2>
+            <h2 className='revTitle'>Reviews</h2>
+            <h2 className='revSubTitle'>
+              Authentic Mexican food, authentic experience
+            </h2>
 
             <Reviews />
           </div>

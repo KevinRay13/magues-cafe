@@ -1,24 +1,84 @@
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';
-
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 .home-page {
   height: 100vh;
   width: 100vw;
 }
 
+// .banner-image {
+//   /* The image used */
+//   background-image: url('../../images/Tacos-magues.jpg');
+
+//   /* Set a specific height */
+//   height: 80vh;
+//   width: 100vw;
+
+//   /* Create the parallax scrolling effect */
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   will-change: transform;
+// }
+.white {
+  background-color: white;
+}
 .banner-image {
-  /* The image used */
-  background-image: url('../../images/Tacos-magues.jpg');
+  min-height: 70%;
+  position: relative;
+  overflow: hidden;
 
-  /* Set a specific height */
-  height: 80vh;
-  width: 100vw;
+  &::before {
+    background-image: url('../../images/Tacos-magues.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    content: '';
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+  }
+}
+.logoHome {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+}
+.logoBg {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  align-content: center;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+
+  position: relative;
+}
+.belowBanner {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.041),
+    rgba(255, 255, 255, 0.822),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  border-bottom: 3px solid grey;
 }
 .our-story {
   display: flex;
@@ -31,32 +91,67 @@
 .our-story-p {
   width: 50vw;
   margin: 1em;
+  font-size: 1.2em;
 }
+// .specialsContainer {
+//   margin: 5rem;
+// }
 .our-specials {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   flex-direction: column;
+
   width: 100vw;
+}
+.dailySpecials {
+  list-style-type: none;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.1rem;
+  padding-top: 1em;
 }
 .our-story-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   flex-direction: column;
   width: 100vw;
 }
+
+.coloredBg {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(220, 220, 228, 0.664),
+    rgba(212, 212, 198, 0.699)
+  );
+  // url('../../images/woodbg.jpeg');
+
+  /* Set a specific height */
+  height: 80%;
+  width: 100vw;
+  border-bottom: 3px solid grey;
+  //   /* Create the parallax scrolling effect */
+  //   background-attachment: fixed;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+}
+
 .our-story-image {
   /* The image used */
   background-image: url('../../images/magues-ladies.jpeg');
 
   /* Set a specific height */
-  height: 40vh;
-  width: 40vw;
+  height: 20vh;
+  width: 20vw;
 
   background-position: center;
   background-repeat: no-repeat;
 }
 .margins {
-  margin-left: 3.5em;
+  margin-left: 2.5rem;
 }
 .titles {
   text-align: left;
@@ -85,12 +180,9 @@
 
   justify-content: center;
 
-  color: white;
   font-size: 1.2rem;
   color: #fff;
   text-shadow: #343a40 2px 2px;
-  min-width: 90%;
-  min-height: 12em;
 }
 .revTitle {
   background-image: url('../../images/paint.jpg');
@@ -100,25 +192,25 @@
   margin: 0 auto;
 
   font-family: 'Atma', cursive;
-  font-size: 4em;
+  font-size: 4rem;
   text-align: center;
   line-height: 2.5em;
   margin-bottom: 0;
 }
 .revSubTitle {
   font-family: 'Atma', cursive;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .customer {
   display: flex;
   font-size: 1rem;
-  margin: 0.2em;
+  margin: 0.2rem;
   align-content: center;
   align-self: center;
 }
 .customerReview {
   display: flex;
-  margin: 0.2em;
+  margin: 0.2rem;
   font-size: 1.2rem;
   align-self: center;
   align-items: center;
@@ -128,4 +220,89 @@
   height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.button {
+  color: #454545;
+  background: transparent;
+  border-width: 0.2px;
+  border-style: solid;
+  border-color: #454545;
+  position: relative;
+  margin: 1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  height: 2.5rem;
+}
+.button:before,
+.button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-color: #454545;
+  box-sizing: border-box;
+  border-style: solid;
+  width: 1rem;
+  height: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.button:before {
+  top: -6px;
+  left: -6px;
+  border-width: 2px 0 0 2px;
+  z-index: 5;
+}
+.button:after {
+  bottom: -6px;
+  right: -6px;
+  border-width: 0 2px 2px 0;
+}
+.button:hover:before,
+.button:hover:after {
+  width: calc(100% + 12px);
+  height: calc(100% + 12px);
+  border-color: #fff;
+}
+.button:hover {
+  color: #353535;
+  background-color: #fff;
+  border-color: #fff;
+}
+.pink .button {
+  color: #c90b14;
+  border-color: #c90b14;
+}
+.pink .button:before,
+.pink .button:after {
+  border-color: #c90b14;
+}
+.pink .button:hover:before,
+.pink .button:hover:after {
+  border-color: #c90b14;
+}
+.pink .button:hover {
+  color: #fff;
+  background-color: #c90b14;
+  border-color: #c90b14;
+}
+.pink .panel {
+  width: 70vw;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+.panel {
+  width: 70vw;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+.reviewsContainer {
+  height: 100vh;
+  width: 100vw;
 }

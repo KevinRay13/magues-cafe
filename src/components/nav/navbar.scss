@@ -1,7 +1,7 @@
 .navbar-container {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Kalam', cursive;
   justify-content: space-around;
 
   width: 100vw;
@@ -11,7 +11,7 @@
   position: fixed;
   top: 0;
   // display: none;
-  background-color: rgba(255, 255, 255, 0.863);
+  background-color: rgba(255, 255, 255, 0.959);
   z-index: 3000;
   margin-top: 0;
   /* border: 1px solid #4f5858; */
@@ -25,7 +25,7 @@
 .linkmain {
   color: #c90b14;
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 2em;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
 }
@@ -53,7 +53,7 @@
   align-items: center;
   width: 50vw;
   list-style-type: none;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 .link {
   text-decoration: none;

@@ -8,8 +8,8 @@ class Navbar extends Component {
       <div>
         <div className='navbar-container'>
           <div className='logo-title'>
-            <img src='MaguesLogo.jpg' alt='' className='logo' />
-            <h1>Mague's Café</h1>
+            <img src='magueslogo.png' alt='' className='logo' />
+            <h1 className='linkmain'>Mague's Café</h1>
           </div>
 
           <div className='navbar-links-container'>
@@ -34,11 +34,11 @@ class Navbar extends Component {
                   Menu
                 </Link>
               </li>
-              <li className=''>
+              {/* <li className=''>
                 <Link to='/about' className='link' id='link'>
                   About
                 </Link>
-              </li>
+              </li> */}
             </ul>
             <div />
           </div>

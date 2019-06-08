@@ -1,0 +1,74 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.locationPage {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: auto;
+}
+.locationHeader {
+  width: 100vw;
+  height: auto;
+  margin-top: 8em;
+}
+h1 {
+  font-size: 4em;
+}
+.locationBody {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box {
+  width: 60rem;
+  height: 70rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+.box2 {
+  width: 80rem;
+  height: 40rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  font-size: 2em;
+}
+.innerBox {
+  display: flex;
+  flex-direction: column;
+}
+.maguesLocationImg {
+  height: 50rem;
+  width: 40rem;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .locationHeader {
+    margin-top: 14em;
+  }
+}

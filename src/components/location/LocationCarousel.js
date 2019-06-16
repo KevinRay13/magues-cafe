@@ -14,16 +14,16 @@ class LocationCarousel extends React.Component {
     //   .addEventListener('click', classToggle);
     return (
       <div>
-        <figure class='icon-cards mt-3'>
-          <div class='icon-cards__content'>
-            <div class='icon-cards__item '>
-              <img src='MaguesFront.png' class='flipPictures' />
+        <figure className='icon-cards mt-3'>
+          <div className='icon-cards__content'>
+            <div className='icon-cards__item '>
+              <img src='MaguesFront.png' className='flipPictures' />
             </div>
-            <div class='icon-cards__item '>
-              <img src='maguesside.png' class='flipPictures' />
+            <div className='icon-cards__item '>
+              <img src='maguesside.png' className='flipPictures' />
             </div>
-            <div class='icon-cards__item '>
-              <img src='maguesinside.png' class='flipPictures' />
+            <div className='icon-cards__item '>
+              <img src='maguesinside.png' className='flipPictures' />
             </div>
           </div>
         </figure>

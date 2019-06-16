@@ -11,7 +11,7 @@ class Location extends Component {
           <header className='locationHeader'>
             <h1 className='revTitle'>Location</h1>
           </header>
-          <body className='locationBody'>
+          <div className='locationBody'>
             <div className='box'>
               <div className='innerBox'>
                 <h2>Boerne</h2>
@@ -27,7 +27,7 @@ class Location extends Component {
             <div className='box2'>
               <LocationCarousel />
             </div>
-          </body>
+          </div>
         </div>
       </div>
     );

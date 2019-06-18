@@ -14,9 +14,11 @@ class Home extends Component {
             <img src='magueslogo.png' alt='' className='logoHome' />
           </div>
           <TextCarousel />
+
           <div className='panel pink'>
-            <button className='button'>Call In Order</button>
-            <button className='button'>Menu</button>
+            <a id='callButton' className='button' href='tel:+8309805137'>
+              Call In Order
+            </a>
           </div>
         </div>
 

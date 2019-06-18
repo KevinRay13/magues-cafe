@@ -22,15 +22,17 @@ class Home extends Component {
 
         <div className='our-story-container'>
           <div className='coloredBg'>
+            {/* <div className='our-story'> */}
             <div className='our-story-title'>
-              <h2 className='titles margins title'>Our Story</h2>
-              <h3 className='titles margins'>
+              <h4 className='title'>Our Story</h4>
+              {/* <h3 className='titles margins'>
                 <i>Best Mexican Food in Boerne</i>
-              </h3>
+              </h3> */}
             </div>
-            <div className='our-story'>
-              <div className='our-story-p'>
-                <p className='titles'>
+
+            <div className='our-story-p'>
+              <p className='storyP'>
+                <b>
                   We aren’t the fanciest taquería in town. “Hip” isn’t even part
                   of our vocabulario. Flaco’s Tacos just knows good, simple
                   Mexican food: tacos, burritos, tamales y quesadillas. Nada
@@ -38,9 +40,16 @@ class Home extends Component {
                   short-cuts. That’s why you can see right into our kitchens. We
                   are preparing everything fresh daily. That makes us (and you)
                   muy felíz!
-                </p>
-              </div>
-              <div className='our-story-image' />
+                </b>
+              </p>
+            </div>
+            {/* <div className='our-story-image' /> */}
+            <div className='ownerImageCont'>
+              <img
+                className='maguesOwnersImg'
+                src='maguesOwners.jpg'
+                alt='Magues Owners'
+              />
             </div>
           </div>
           <div className='white'>

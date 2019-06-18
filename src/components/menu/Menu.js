@@ -9,7 +9,17 @@ class Menu extends Component {
         <div className='menuHeader'>
           <h1>Mague's Menu</h1>
         </div>
-        <main>Menu goes here</main>
+        <main>
+          <div>
+            <img src='' alt='' />
+          </div>
+          <div>
+            <img src='' alt='' />
+          </div>
+          <div>
+            <img src='' alt='' />
+          </div>
+        </main>
       </div>
     );
   }

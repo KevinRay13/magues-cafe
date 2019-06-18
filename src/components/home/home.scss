@@ -88,12 +88,12 @@ body {
   margin: 1em;
   margin: 0 auto;
 }
-.our-story-p {
-  width: 50vw;
-  margin: 1em;
-  font-size: 1.2em;
-  color: rgb(85, 84, 84);
-}
+// .our-story-p {
+//   width: 50vw;
+//   margin: 1em;
+//   font-size: 1.2em;
+//   color: rgb(85, 84, 84);
+// }
 // .specialsContainer {
 //   margin: 5rem;
 // }
@@ -109,9 +109,12 @@ body {
   list-style-type: none;
 }
 .title {
-  font-size: 3rem;
-  margin-bottom: 0.1rem;
-  padding-top: 1em;
+  font-size: 4rem;
+  margin: 0 auto;
+  text-shadow: 1px 2px 2px #fff;
+  //   margin-bottom: 0.1rem;
+  //   padding-left: 1em;
+  //   padding-right: 1em;
 }
 .our-story-container {
   display: flex;
@@ -128,39 +131,53 @@ body {
     rgba(220, 220, 228, 0.664),
     rgba(212, 212, 198, 0.699)
   );
-  // url('../../images/woodbg.jpeg');
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 
   /* Set a specific height */
   height: 80%;
   width: 100vw;
   border-bottom: 3px solid grey;
-  //   /* Create the parallax scrolling effect */
-  //   background-attachment: fixed;
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
 }
+.ownerImageCont {
+  display: flex;
+  align-items: center;
+  //   width: 100vw;
+  //   height: 24em;
+}
+.storyP {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 40vw;
+  min-width: 260px;
 
-.our-story-image {
-  /* The image used */
-  background-image: url('../../images/magues-ladies.jpeg');
-
-  /* Set a specific height */
-  height: 20vh;
-  width: 20vw;
-
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.margins {
-  margin-left: 2.5rem;
-}
-.titles {
-  text-align: left;
-}
-.our-story-title {
-  width: 40vw;
+  padding: 2em;
+  margin: 0 auto;
+  font-size: 1.4em;
+  text-shadow: 1px 2px 2px #fff;
   color: rgb(85, 84, 84);
+}
+
+// .margins {
+// }
+// .titles {
+//   text-align: left;
+// }
+.our-story-title {
+  display: flex;
+  margin: 2em;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 20em;
+  width: 20em;
+  border: 2px solid rgb(85, 84, 84);
+  border-radius: 1000%;
+  color: rgb(85, 84, 84);
+  box-shadow: 1px 1px 1px #fff;
 }
 .review {
   height: 40vh;
@@ -309,4 +326,31 @@ body {
 .reviewsContainer {
   height: 100vh;
   width: 100vw;
+}
+.maguesOwnersImg {
+  max-height: 35em;
+  max-width: 44em;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+  margin-bottom: 1em;
+  border: 1px solid white;
+}
+@media (max-width: 700px) {
+  .maguesOwnersImg {
+    height: 30em;
+    width: 39em;
+  }
+}
+@media (max-width: 600px) {
+  .maguesOwnersImg {
+    height: 25em;
+    width: 34em;
+  }
+}
+@media (max-width: 400px) {
+  .maguesOwnersImg {
+    display: none;
+  }
 }

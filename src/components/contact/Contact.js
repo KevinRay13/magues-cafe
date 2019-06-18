@@ -18,6 +18,11 @@ class Contact extends Component {
               <p> Boerne, Texas 78006-1628</p>
               <p>Phone: (830) 249-9168</p>
             </div>
+            <div className='panel3 pink'>
+              <a className='button' href='tel:+8302499168'>
+                Call Us
+              </a>
+            </div>
           </div>
           <div className='insideContainer'>
             <h2 className='conTitle'>Spring Branch Location</h2>
@@ -27,10 +32,15 @@ class Contact extends Component {
 
               <p>Phone: (830) 980-5137</p>
             </div>
+            <div className='panel3 pink'>
+              <a className='button' href='tel:+8309805137'>
+                Call Us
+              </a>
+            </div>
           </div>
 
           <div className='insideContainerB'>
-            <h2 className='conTitle'>Follow Us</h2>
+            <h2 id='conTitle'>Follow Us</h2>
 
             <div className='socIconCont'>
               <a href='https://www.facebook.com/Magues-Cafe-108150915893027/'>

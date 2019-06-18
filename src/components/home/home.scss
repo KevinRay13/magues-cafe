@@ -152,11 +152,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  max-width: 40vw;
+  width: 50vw;
+
   min-width: 260px;
 
+  // padding: 2em;
   padding: 2em;
-  margin: 0 auto;
   font-size: 1.4em;
   text-shadow: 1px 2px 2px #fff;
   color: rgb(85, 84, 84);

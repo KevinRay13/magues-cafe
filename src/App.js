@@ -16,7 +16,7 @@ import Location from './components/location/Location';
 import Menu from './components/menu/Menu';
 
 const history = createHistory();
-ReactGA.initialize('UA-00000000-1');
+ReactGA.initialize('UA-142288691-1');
 history.listen((location, action) => {
   ReactGA.pageview(location.pathname + location.search);
   console.log(location.pathname);

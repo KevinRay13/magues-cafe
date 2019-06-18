@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import PlatesCarousel from './PlatesCarousel';
 import './menu.scss';
 
 class Menu extends Component {
@@ -7,7 +7,11 @@ class Menu extends Component {
     return (
       <div className='home-page'>
         <div className='menuHeader'>
-          <h1>Mague's Menu</h1>
+          <h1 className='revTitle'>Menu</h1>
+          <h2 className='popularDishes'>Popular Dishes</h2>
+        </div>
+        <div className='PCContainer'>
+          <PlatesCarousel />
         </div>
         <main>
           <div>

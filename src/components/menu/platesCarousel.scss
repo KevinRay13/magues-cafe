@@ -1,0 +1,65 @@
+.plate1 {
+  //   background-image: url(http://flacostacosonline.com/wp-content/uploads/2015/08/tacobg.png);
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 1em;
+  margin: 0 auto;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+}
+.plateName {
+  color: rgb(85, 84, 84);
+  margin: 1em;
+}
+.plateContent {
+  font-family: 'Kalam', cursive;
+  height: 25rem;
+  width: 25rem;
+  //   width: 50vw;
+  //   height: 45vh;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  font-size: 1.2rem;
+  color: #343a40;
+}
+.centerPlateTitle {
+  margin: 0 auto;
+  font-size: 2em;
+  color: rgb(85, 84, 84);
+}
+.plate {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+// @media (max-width: 600px) {
+//   .plate1 {
+//     height: 20rem;
+//     width: 20rem;
+//   }
+//   .plateContent {
+
+//     height: 20rem;
+//     width: 20rem;
+
+// }
+@media (max-width: 340px) {
+  .plate1 {
+    height: 15rem;
+    width: 15rem;
+    margin: 0 auto;
+  }
+  .plateContent {
+    height: 20rem;
+    width: 20rem;
+  }
+}

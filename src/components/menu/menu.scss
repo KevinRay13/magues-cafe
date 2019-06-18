@@ -2,3 +2,23 @@
   height: 100vh;
   width: 100vw;
 }
+.menuHeader {
+  width: 100vw;
+  height: 25vh;
+  margin-top: 15vh;
+}
+@media (max-width: 600px) {
+  .menuHeader {
+    margin-top: 25vh;
+  }
+}
+@media (max-width: 510px) {
+  .menuHeader {
+    margin-top: 30vh;
+  }
+}
+@media (max-width: 330px) {
+  .menuHeader {
+    margin-top: 35vh;
+  }
+}

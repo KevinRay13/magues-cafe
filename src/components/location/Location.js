@@ -14,15 +14,51 @@ class Location extends Component {
           <div className='locationBody'>
             <div className='box'>
               <div className='innerBox'>
-                <h2>Boerne</h2>
+                <h2>Boerne </h2>
                 <a href='https://goo.gl/maps/Hth1W6hnR6FJH4LdA'>
                   <h3>934 N Main St, Boerne, Texas 78006</h3>
                 </a>
                 <h3>
                   <a href='tel:+8302499168'>(830) 249-9168</a>
                 </h3>
+                <div className='panel2 pink'>
+                  {/* <button
+                    className='button'
+                    href='https://goo.gl/maps/iSMnfKavZT6GW1Do8'
+                  >
+                    Directions
+                  </button> */}
+                  <a
+                    className='button'
+                    href='https://goo.gl/maps/iSMnfKavZT6GW1Do8'
+                  >
+                    Directions
+                  </a>
+                </div>
               </div>
-              <img src='MaguesLoc.png' className='maguesLocationImg' alt='' />
+              <div className='innerBox'>
+                <h2>Spring Branch </h2>
+                <a href='https://goo.gl/maps/Hth1W6hnR6FJH4LdA'>
+                  <h3>20450 TX-46, Spring Branch, TX 78070</h3>
+                </a>
+                <h3>
+                  <a href='tel:+8309805137'>(830) 980-5137</a>
+                </h3>
+                <div className='panel2 pink'>
+                  {/* <button
+                    className='button'
+                    href='https://goo.gl/maps/Hth1W6hnR6FJH4LdA'
+                  >
+                    Directions
+                  </button> */}
+                  <a
+                    className='button'
+                    href='https://goo.gl/maps/uRZgnwdk6P1c8BL68'
+                  >
+                    Directions
+                  </a>
+                </div>
+              </div>
             </div>
             <div className='box2'>
               <LocationCarousel />

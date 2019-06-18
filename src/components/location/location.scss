@@ -28,47 +28,73 @@ h1 {
   flex-wrap: wrap;
 }
 .box {
-  width: 60rem;
-  height: 70rem;
+  width: 100vw;
+  height: 30rem;
 
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  //   align-items: center;
   justify-content: space-around;
-  flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+  flex-direction: row;
+  font-family: 'Atma', cursive;
 }
 .box2 {
   width: 80rem;
-  height: 40rem;
+  height: 25rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Atma', cursive;
 }
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
+  color: rgb(85, 84, 84);
 }
 .innerBox {
   display: flex;
   flex-direction: column;
+  color: rgb(85, 84, 84);
+  flex-wrap: wrap;
+  width: 30rem;
+}
+.panel2 {
+  width: auto;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
 }
 .maguesLocationImg {
   height: 50rem;
   width: 40rem;
 }
+a.button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
 a {
-  color: red;
+  color: rgb(85, 84, 84);
   text-decoration: none;
+  margin: 0 auto;
 }
 a:hover {
-  color: red;
-  text-decoration: underline;
+  color: #c90b14;
+  //   text-decoration: underline;
 }
 
 @media (max-width: 900px) {
   .locationHeader {
+    margin-top: 14em;
+  }
+}
+@media (max-width: 959px) {
+  .box2 {
     margin-top: 14em;
   }
 }

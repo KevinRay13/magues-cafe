@@ -6,10 +6,10 @@ class Menu extends Component {
   render() {
     return (
       <div className='home-page'>
-        <div>
-          <h1>h1 title</h1>
+        <div className='menuHeader'>
+          <h1>Mague's Menu</h1>
         </div>
-        <main>Here is the menu</main>
+        <main>Menu goes here</main>
       </div>
     );
   }

@@ -61,9 +61,6 @@ class Home extends Component {
             </div> */}
             <div className='reviewsContainer'>
               <h2 className='revTitle'>Reviews</h2>
-              <h3>
-                <i>Authentic Mexican food, authentic experience</i>{' '}
-              </h3>
 
               <Reviews />
             </div>

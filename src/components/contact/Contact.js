@@ -19,9 +19,19 @@ class Contact extends Component {
               <p>Phone: (830) 249-9168</p>
             </div>
           </div>
-
           <div className='insideContainer'>
+            <h2 className='conTitle'>Spring Branch Location</h2>
+            <div className='infoContainer'>
+              <p>20450 TX-46 </p>
+              <p>Spring Branch, TX 78070</p>
+
+              <p>Phone: (830) 980-5137</p>
+            </div>
+          </div>
+
+          <div className='insideContainerB'>
             <h2 className='conTitle'>Follow Us</h2>
+
             <div className='socIconCont'>
               <a href='https://www.facebook.com/Magues-Cafe-108150915893027/'>
                 <img className='socialIcons' src='fbIcon.png' alt='' />

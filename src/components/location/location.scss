@@ -87,6 +87,11 @@ a:hover {
   color: #c90b14;
   //   text-decoration: underline;
 }
+@media (max-width: 500px) {
+  .box2 {
+    display: none;
+  }
+}
 
 @media (max-width: 900px) {
   .locationHeader {

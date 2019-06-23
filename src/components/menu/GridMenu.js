@@ -8,7 +8,7 @@ class GridMenu extends React.Component {
         <body className='pa3 pa4-ns pa5-l container'>
           <div className=''>
             <div className=''>
-              <h2 className=''>Lunch & Dinner</h2>
+              <h2 className='LDHeader'>Lunch & Dinner</h2>
               <p>
                 All plates served with beans & rice, 2 tortillas, lettuce &
                 tomato
@@ -50,177 +50,254 @@ class GridMenu extends React.Component {
                   Enchiladas de Mole
                   <span className='price fw4 baskerville'>(8)</span>
                 </h3>
-                <p className='item-description'>fruit and yogurt</p>
+                <p className='item-description'>With white cheese & onions</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  BREAKFAST TACOS{' '}
+                  Enchiladas de Chile Colorado
                   <span className='price fw4 baskerville'>(8)</span>
                 </h3>
-                <p className='item-description'>
-                  3 corn tortillas, eggs, cheddar, chorizo, salsa verde and
-                  queso fresco
-                </p>
+                <p className='item-description'>With white cheese & onions</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  BREAKFAST BURRITO{' '}
+                  Beef Soft Tacos
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
-                <p className='item-description'>
-                  scrambled eggs, cheddar, chorizo, black beans, flour tortilla
-                  and spicy green salsa on the side
-                </p>
+                <p className='item-description'>Picadillo/ corn only</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  LOCALLY SMOKED TROUT{' '}
+                  Chicken Soft Tacos
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
-                <p className='item-description'>
-                  herbed cream cheese, red onion, capers on a bagel
-                </p>
+                <p className='item-description'>Corn only</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  BACON, EGG & CHEESE ON BISCUIT{' '}
+                  Crispy Beef Tacos
                   <span className='price fw4 baskerville'>(8)</span>
                 </h3>
                 <p className='item-description'>phoenician potatoes</p>
-                <p className='item-description i'>
-                  *served with phoenician potatoes, & toast
-                </p>
+                <p className='item-description i'>Picadillo</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  FULL PHOENICIA BREAKFAST*{' '}
+                  Crispy Chicken Tacos
                   <span className='price fw4 baskerville'>(12)</span>
                 </h3>
-                <p className='item-description'>
-                  two eggs any way, sausage and bacon, baked beans, tomatoes
-                </p>
+                <p className='item-description' />
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  eggs any way*{' '}
+                  Chalupas(Bean and Cheese only)
                   <span className='price fw4 baskerville'>(8)</span>
                 </h3>
-                <p className='item-description'>bacon or sausage</p>
+                <p className='item-description' />
+                <p className='item-description' />
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  phoenicia diner omelet*{' '}
+                  Carne de Puerco con calabaza y Helote
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description'>With squash, corn & pork</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Carne de Puerco con Chile Colorado
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description i'>Pork with red sauce</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Carne a la Mexicana
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
                 <p className='item-description'>
-                  sautéed greens, mushrooms, goat cheese
+                  Beef with chile, onions, tomatoes
                 </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  omelet your way*{' '}
+                  Carne Guisada
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
-                <p className='item-description i'>choose up to 3 items</p>
+                <p className='item-description'>Beef in gravy</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Picadillo
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description'>Ground beef with potatoes</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Chicharrones
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description'>Soft pork skins</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Lengua
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description'>Tongue with sauce</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Mexican Plate
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
                 <p className='item-description'>
-                  swiss, cheddar, feta, spinach, tomato, onion, peppers, bacon,
-                  sausage, mushrooms, or ham
+                  2 cheese enchiladas, 1 crispy taco
                 </p>
-                <p className='item-description i'>each additional item (2)</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  western omelet*{' '}
-                  <span className='price fw4 baskerville'>(9)</span>
-                </h3>
-                <p className='item-description'>ham, peppers and onions</p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  the benedicts*{' '}
+                  Popurry Plate
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
                 <p className='item-description'>
-                  served with phoenician potatoes
+                  1 cheese enchilada, 1 crispy taco, 1 chalupa
                 </p>
-                <p className='item-description i'>
-                  california (9) canadian bacon (9) florentine (8) locally
-                  smoked salmon (10)
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Fiesta Plate
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description'>
+                  1 cheese enchilada, 1 crispy taco, 1 chile relleno
                 </p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Tamales
+                  <span className='price fw4 baskerville'>(9)</span>
+                </h3>
+                <p className='item-description'>3 tamales</p>
               </li>
             </ul>
-            <h3 className='cubano f3 tracked green pt2 pb3'>Skillets</h3>
+
             <ul>
+              {/* <h3 className='cubano f3 tracked green pt2 pb3'>
+                - These Plates Take a Little Longer -
+              </h3> */}
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  HUEVOS RANCHEROS SKILLET{' '}
+                  Tripas
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
-                <p className='item-description'>
-                  refried beans, corn tortilla, salsa verde, cheddar cheese and
-                  two sunny side up eggs
-                </p>
-                <p className='item-description i'>*served with toast</p>
+                <p className='item-description'>Soft or Crispy</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  DUCK AND GRITS SKILLET*{' '}
+                  Fajita
                   <span className='price fw4 baskerville'>(11)</span>
                 </h3>
                 <p className='item-description'>
-                  duck confit, shiitake mushrooms, cheddar cheese grits and
-                  poached egg
+                  Chicken or Beef, choice of one only
                 </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  WILD HIVE FARM POLENTA*{' '}
+                  2 Gorditas
                   <span className='price fw4 baskerville'>(9)</span>
                 </h3>
-                <p className='item-description'>
-                  sautéed greens and two sunny side up eggs
-                </p>
+                <p className='item-description'>Picadillo</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  FARMER’S SKILLET*{' '}
+                  3 Chicken Flautas
                   <span className='price fw4 baskerville'>(10)</span>
                 </h3>
-                <p className='item-description'>
-                  bacon, phoenician potatoes, cheese and two sunny side up eggs
-                </p>
+                <p className='item-description'>With guacamole & sour cream</p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  HOUSE CURED CORNED BEEF HASH*{' '}
+                  Quesadillas
                   <span className='price fw4 baskerville'>(11)</span>
                 </h3>
                 <p className='item-description'>
-                  grass fed beef, onion, peppers, potatoes and two sunny side up
-                  eggs
+                  With white cheese, flour or corn
                 </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  ARNOLD BENNETT SKILLET*{' '}
+                  2 Pork Chops
+                  <span className='price fw4 baskerville'>(10)</span>
+                </h3>
+                <p className='item-description'>With Salsa Ranchera</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Pollo en Mole
+                  <span className='price fw4 baskerville'>(10)</span>
+                </h3>
+                <p className='item-description'>Chicken in mole sauce</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Chile Relleno
+                  <span className='price fw4 baskerville'>(10)</span>
+                </h3>
+                <p className='item-description'>Picadillo or cheese</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Steak Ranchero
+                  <span className='price fw4 baskerville'>(10)</span>
+                </h3>
+                <p className='item-description'>With salsa ranchero</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Tampiquena
                   <span className='price fw4 baskerville'>(10)</span>
                 </h3>
                 <p className='item-description'>
-                  locally smoked trout, parmesan cheese, crème fraîche scrambled
-                  eggs
+                  2 cheese enchiladas, slice of fajita meat
                 </p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Milanesa
+                  <span className='price fw4 baskerville'>(10)</span>
+                </h3>
+                <p className='item-description'>Thin breaded steak</p>
               </li>
             </ul>
           </div>
+          <div className='specialsContainer'>
+            <div className='specialsBox'>
+              <h3 className='specialTitle'>Mague's Special Plate</h3>
+              <h4>
+                Sausage, chile, onions, potatoes, tomatoes, rice, beans, 2
+                tortillas
+              </h4>
+              <h4>$6.50</h4>
+            </div>
+            <div className='specialsBox'>
+              <h3 className='specialTitle'>Fajita's by the Pound</h3>
+              <h4>
+                One pound of chicken, beef or combination fo both with bell
+                peppers and onions. Guacamole, charro beans, rice, and six
+                tortillas.
+              </h4>
+              <h4>$23.95</h4>
+            </div>
+          </div>
           <div className='lunch--header pt3 pb3 bdb mb3'>
             <div />
+
             <div>
               <h2 className='cubano f2 tracked green pb2 tc'>lunch</h2>
               <p className='din ttu tracked tc f6-l'>SERVED FROM 11AM-5PM</p>
             </div>
-            <aside className='script f3 f4-l dn db-bp2 pt3 tr'>
-              We serve Mimosas, Bloody Marys, & Beer
-            </aside>
           </div>
           <div className='items--container lunch--container'>
             <h3 className='cubano f3 tracked green pt2'>Sandwiches</h3>

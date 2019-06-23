@@ -11,6 +11,29 @@ $script: 'funkydori', sans-serif;
 //   background-color: $beige;
 //   color: $brown;
 // }
+.LDHeader {
+  width: 100vw;
+}
+.specialsContainer {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em;
+}
+.specialsBox {
+  width: 30em;
+  height: 14.5em;
+  border: 2px solid grey;
+  margin: 0.5em;
+  border-radius: 15px;
+}
+.specialTitle {
+  font-size: 1.5em;
+}
 .GridMenu {
 }
 // .logo {
@@ -122,7 +145,7 @@ ul {
 
   .breakfast--container,
   .lunch--container {
-    column-count: 2;
+    column-count: 3;
     column-gap: 32px;
   }
 

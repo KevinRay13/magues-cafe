@@ -8,11 +8,18 @@
 .PCContainer {
   margin: 1em;
 }
+.menuTabs {
+  width: 100vw;
+}
 .menuHeader {
   width: 100vw;
   height: 35vh;
   margin-top: 15vh;
 }
+element.style {
+  padding: 0;
+}
+
 @media (max-width: 600px) {
   .menuHeader {
     margin-top: 25vh;

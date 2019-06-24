@@ -1,4 +1,4 @@
-$beige: rgb(255, 255, 249);
+$grey: rgb(85, 84, 84);
 $green: rgb(60, 136, 121);
 $brown: rgb(95, 90, 68);
 $baskerville: 'libre baskerville', georgia, serif;
@@ -7,9 +7,7 @@ $cubano: 'cubano', sans-serif;
 $script: 'funkydori', sans-serif;
 
 // body {
-//   font-family: $baskerville;
-//   background-color: $beige;
-//   color: $brown;
+//   padding: 0;
 // }
 .LDHeader {
   width: 100vw;
@@ -27,7 +25,7 @@ $script: 'funkydori', sans-serif;
 .specialsBox {
   width: 30em;
   height: 14.5em;
-  border: 2px solid grey;
+  border: 2px solid $grey;
   margin: 0.5em;
   border-radius: 15px;
 }
@@ -46,27 +44,28 @@ ul {
   padding-inline-start: 0px;
 }
 .din {
-  font-family: $din;
+  font-family: 'Atma', cursive;
+  color: $grey;
 }
-.cubano {
-  font-family: $cubano;
-}
+// .cubano {
+//   font-family: $cubano;
+// }
 
-.script {
-  font-family: $script;
-}
+// .script {
+//   font-family: $script;
+// }
 
 .baskerville {
-  font-family: $baskerville;
+  font-family: 'Atma', cursive;
 }
 
 .green {
-  color: $green;
+  color: $grey;
 }
 
 .price,
 .item-description {
-  font-family: $baskerville;
+  font-family: 'Atma', cursive;
   letter-spacing: 0.6px;
   line-height: 1.4;
   padding-bottom: 4px;

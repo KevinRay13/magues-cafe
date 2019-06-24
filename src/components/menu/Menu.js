@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PlatesCarousel from './PlatesCarousel';
 import './menu.scss';
 import GridMenu from './GridMenu';
+import MenuTabs from './MenuTabs';
 
 class Menu extends Component {
   render() {
@@ -14,9 +15,10 @@ class Menu extends Component {
         <div className='PCContainer'>
           <PlatesCarousel />
         </div>
-        <div>
-          <GridMenu />
+        <div className='menuTabs'>
+          <MenuTabs />
         </div>
+        <div>{/* <GridMenu /> */}</div>
       </div>
     );
   }

@@ -293,111 +293,43 @@ class GridMenu extends React.Component {
           </div>
           <div className='lunch--header pt3 pb3 bdb mb3'>
             <div />
-
-            <div>
-              <h2 className='cubano f2 tracked green pb2 tc'>lunch</h2>
-              <p className='din ttu tracked tc f6-l'>SERVED FROM 11AM-5PM</p>
-            </div>
           </div>
           <div className='items--container lunch--container'>
-            <h3 className='cubano f3 tracked green pt2'>Sandwiches</h3>
+            <h3 className='cubano f3 tracked green pt2'>Childs Plates</h3>
             <p className='item-description i pt2 pb3'>
-              served with house fries or mixed greens
+              All served with rice & beans & 1 tortilla
             </p>
             <ul className=''>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  Classic BLT <span className='price fw4 baskerville'>(8)</span>
+                  Cheese Enchilada
+                  <span className='price fw4 baskerville'>($5.20)</span>
                 </h3>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  "The Mitchell"{' '}
-                  <span className='price fw4 baskerville'>(8)</span>
+                  Beef Enchilada
+                  <span className='price fw4 baskerville'>($5.20)</span>
                 </h3>
-                <p className='item-description'>
-                  pole caught tuna, lettuce and tomato
-                </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  GRASS FED ROAST BEEF SANDWICH{' '}
-                  <span className='price fw4 baskerville'>(11)</span>
+                  Picadillo
+                  <span className='price fw4 baskerville'>($5.20)</span>
                 </h3>
-                <p className='item-description'>
-                  cheddar, caramelized onions, watercress, house made
-                  horseradish mayo on ciabatta
-                </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  CBLT <span className='price fw4 baskerville'>(12)</span>
+                  Carne Guisada{' '}
+                  <span className='price fw4 baskerville'>($5.20)</span>
                 </h3>
-                <p className='item-description'>
-                  fried crab cake, bacon, lettuce & tomato on our brioche roll
-                </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  CLASSIC TURKEY CLUB{' '}
+                  Crispy Taco Plate
                   <span className='price fw4 baskerville'>(12)</span>
                 </h3>
-                <p className='item-description'>
-                  house roasted turkey, bacon, lettuce and tomato
-                </p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  HOUSE MADE REUBEN{' '}
-                  <span className='price fw4 baskerville'>(12)</span>
-                </h3>
-                <p className='item-description'>house cured corned beef</p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  VEGGIE QUESADILLA{' '}
-                  <span className='price fw4 baskerville'>(9)</span>
-                </h3>
-                <p className='item-description'>
-                  grilled portabella, zucchini, roasted peppers, red onion,
-                  fresh spinach, cheddar, pico de gallo and guacamole
-                </p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  FRIED CHICKEN & WAFFLE SANDWICH{' '}
-                  <span className='price fw4 baskerville'>(12)</span>
-                </h3>
-                <p className='item-description'>
-                  free range chicken breast, house made waffle, pickled veggies,
-                  sriracha mayo
-                </p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  GRASS FED BURGER{' '}
-                  <span className='price fw4 baskerville'>(11)</span>
-                </h3>
-                <p className='item-description'>lettuce and tomato</p>
-                <p className='item-description i'>add cheese (1) bacon (2)</p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  GRILLED CHEDDAR & TOMATO *{' '}
-                  <span className='price fw4 baskerville'>(7)</span>
-                </h3>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <h3 className='din ttu tracked f6'>
-                  HOUSE MADE VEGGIE BURGER{' '}
-                  <span className='price fw4 baskerville'>(9)</span>
-                </h3>
-                <p className='item-description'>
-                  wild rice, sweet potato, eggplant, black lentils, red onion{' '}
-                  <span className='i'>
-                    add cheese <span className='fs-normal'>(2)</span>
-                  </span>
-                </p>
+                <p className='item-description'>Chicken or beef</p>
               </li>
             </ul>
             <h3 className='cubano f3 tracked green pt2 pb3'>Soups</h3>

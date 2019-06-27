@@ -332,110 +332,246 @@ class GridMenu extends React.Component {
                 <p className='item-description'>Chicken or beef</p>
               </li>
             </ul>
-            <h3 className='cubano f3 tracked green pt2 pb3'>Soups</h3>
+            <h3 className='cubano f3 tracked green pt2 pb3'>Caldo - Soups</h3>
+            <p className='item-description'>With Corn or Flour Tortillas</p>
             <ul>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  TORTILLA SOUP{' '}
+                  Menudo
                   <span className='price fw4 baskerville ttn'>
-                    <span className='i'>bowl</span> (7){' '}
-                    <span className='i'>cup</span> (4)
+                    <span className='i'> Regular</span> (3.75)
+                    <span className='i'> Grande</span> (6.50)
                   </span>
                 </h3>
-                <p className='item-description'>
-                  free range chicken, avocado, tortilla chips
-                </p>
+                <p className='item-description' />
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  TODAY'S VEGGIE SOUP*{' '}
+                  Caldo de Rez
                   <span className='price fw4 baskerville ttn'>
-                    <span className='i'>bowl</span> (6){' '}
-                    <span className='i'>cup</span> (3.5)
+                    <span className='i'> W/o rice</span> (6){' '}
+                    <span className='i'> W rice</span> (6.75)
+                  </span>
+                  <p className='item-description'>Beef soup</p>
+                </h3>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Pozole
+                  <span className='price fw4 baskerville ttn'>
+                    <span className='i'> Friday & Saturday only</span> (6.50){' '}
+                  </span>
+                </h3>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Caldo de Pollo
+                  <span className='price fw4 baskerville ttn'>
+                    <span className='i' /> (6){' '}
+                  </span>
+                </h3>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Fideo
+                  <span className='price fw4 baskerville ttn'>
+                    <span className='i' /> (5.75)
                   </span>
                 </h3>
               </li>
             </ul>
-            <h3 className='cubano f3 tracked green pt2 pb3'>Salad</h3>
+            <h3 className='cubano f3 tracked green pt2 pb3'>Hamburgers</h3>
             <ul>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  house salad{' '}
-                  <span className='price fw4 baskerville'>(10)</span>
-                </h3>
-                <span className='price fw4 baskerville' />
-                <p className='item-description'>
-                  <span className='price fw4 baskerville'>
-                    baby kale, pickled onion, fresh pears, pumpkin seed crusted
-                    goat cheese, lemon vinaigrette
+                  Hamburger
+                  <span className='price fw4 baskerville ttn'>
+                    <span className='i' /> (3.25){' '}
+                    <span className='i'> W fries</span> (4.25)
                   </span>
-                </p>
-              </li>
-              <li className='pb3 pt1 measure'>
-                <span className='price fw4 baskerville' />
-                <h3 className='din ttu tracked f6'>
-                  SMOKED SALMON NIÇOISE SALAD{' '}
-                  <span className='price fw4 baskerville ttn'>(12)</span>
+                  <p className='item-description' />
                 </h3>
-                <p className='item-description'>
-                  hookline smoked salmon, hardboiled eggs, tomatoes, olives,
-                  anchovies, green beans with lemon vinaigrette
-                </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  QUINOA SALAD{' '}
-                  <span className='price fw4 baskerville ttn'>(8)</span>
+                  Cheeseburger
+                  <span className='price fw4 baskerville ttn'>
+                    <span className='i' /> (4.25){' '}
+                    <span className='i'> W fries</span> (5.25)
+                  </span>
+                  <p className='item-description' />
                 </h3>
-                <p className='item-description'>
-                  mixed greens, cucumber, carrot, red onion, avocado and lemon
-                  vinaigrette
-                </p>
-                <p className='item-description i'>
-                  add seared local chicken breast{' '}
-                  <span className='fs-normal'>(4)</span>
-                </p>
               </li>
             </ul>
-            <h3 className='cubano f3 tracked green pt2 pb3'>platters</h3>
+            <h3 className='cubano f3 tracked green pt2 pb3'>
+              Side Orders & Extras
+            </h3>
             <ul>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  meatloaf <span className='price fw4 baskerville'>(13)</span>
+                  Chile Relleno{' '}
+                  <span className='price fw4 baskerville'>(3.75)</span>
                 </h3>
                 <span className='price fw4 baskerville' />
                 <p className='item-description'>
-                  <span className='price fw4 baskerville'>
-                    mashed potatoes and marinara, sautéed greens
-                  </span>
+                  <span className='price fw4 baskerville' />
                 </p>
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  CHICKEN & SAUSAGE GUMBO{' '}
-                  <span className='price fw4 baskerville ttn'>(12)</span>
+                  Charro Beans
+                  <span className='price fw4 baskerville ttn'>(2.50)</span>
                 </h3>
-                <p className='item-description'>
-                  free range chicken, andouille sausage and basmati rice
-                </p>
+                <p className='item-description' />
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  GRASS FED BEEF SHORT RIBS & POLENTA{' '}
-                  <span className='price fw4 baskerville ttn'>(14)</span>
+                  Salsa Ranchera
+                  <span className='price fw4 baskerville ttn'>(1)</span>
                 </h3>
-                <p className='item-description'>
-                  braised ribs, wild hive farm polenta, seasonal veggies
-                </p>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Extra Chips
+                  <span className='price fw4 baskerville ttn'>(1)</span>
+                </h3>
+                <p className='item-description'>served after 11:30</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Pico de Gallo
+                  <span className='price fw4 baskerville ttn'>(1)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  French Fries
+                  <span className='price fw4 baskerville ttn'>(2.75)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  One Sausage Patty
+                  <span className='price fw4 baskerville ttn'> (1)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Two Strips of Bacon
+                  <span className='price fw4 baskerville ttn'> (1)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Ham
+                  <span className='price fw4 baskerville ttn'> (2)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Rice
+                  <span className='price fw4 baskerville ttn'> (1.50)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Beans
+                  <span className='price fw4 baskerville ttn'> (1.50)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Shredded Cheese
+                  <span className='price fw4 baskerville ttn'> (1)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Sour Cream
+                  <span className='price fw4 baskerville ttn'> (1)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Guacamole
+                  <span className='price fw4 baskerville ttn'> (2.75)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Two Slices of Toast
+                  <span className='price fw4 baskerville ttn'> (.75)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Two Tortillas
+                  <span className='price fw4 baskerville ttn'> (.80)</span>
+                </h3>
+                <p className='item-description'>Dine in only</p>
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Barbacoa
+                  <span className='price fw4 baskerville ttn'> (3.75)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  One Sausage Link
+                  <span className='price fw4 baskerville ttn'> (2)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  One Pork Chop
+                  <span className='price fw4 baskerville ttn'> (2.50)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Order of Potatoes
+                  <span className='price fw4 baskerville ttn'> (1.50)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Order of Cilantro
+                  <span className='price fw4 baskerville ttn'> (.75)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  One Chile Toreado
+                  <span className='price fw4 baskerville ttn'> (.50)</span>
+                </h3>
+                <p className='item-description' />
+              </li>
+              <li className='pb3 pt1 measure'>
+                <h3 className='din ttu tracked f6'>
+                  Anything not listed ask for price
+                  <span className='price fw4 baskerville ttn' />
+                </h3>
+                <p className='item-description' />
               </li>
             </ul>
-            <div className='providers tc pv3 bdb bdt bdr bdl mt3'>
-              <h3 className='script f3 mb0 pt3'>Check out our</h3>
-              <h3 className='cubano f3 tracked green pb3 nt1'>
-                Local providers
-              </h3>
-              <h3 className='script f3'>above the counter</h3>
-            </div>
           </div>
           {/* <div className='items--container sides'>
             <h2 className='script f2 green tc pt5 pt2-bp3'>Sides</h2>

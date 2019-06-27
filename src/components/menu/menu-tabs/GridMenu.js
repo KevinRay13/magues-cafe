@@ -5,7 +5,7 @@ class GridMenu extends React.Component {
   render() {
     return (
       <div className='GridMenu'>
-        <body className='pa3 pa4-ns pa5-l container'>
+        <body className='pa3 pa4-ns pa5-l '>
           <div className='lunch--header pt3 pb3 bdb mb3'>
             <div className=''>
               <h2 className='LDHeader'>Lunch & Dinner</h2>
@@ -573,67 +573,7 @@ class GridMenu extends React.Component {
               </li>
             </ul>
           </div>
-          {/* <div className='items--container sides'>
-            <h2 className='script f2 green tc pt5 pt2-bp3'>Sides</h2>
-            <ul className='sides--container'>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>
-                  bowl of steel cut oatmeal with fruit
-                </p>
-                <p className='item-description dib'>(5)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>phoenician potatoes</p>
-                <p className='item-description dib'>(3)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>bacon</p>
-                <p className='item-description dib'>(4)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>
-                  house made pork or turkey sausage patty
-                </p>
-                <p className='item-description dib'>(4)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>cheddar grits</p>
-                <p className='item-description dib'>(3)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>
-                  arugula salad with lemon vinaigrette
-                </p>
-                <p className='item-description dib'>(5)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>seasonal vegetables</p>
-                <p className='item-description dib'>(4)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>fresh fruit</p>
-                <p className='item-description dib'>(5)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>
-                  beer battered onion rings
-                </p>
-                <p className='item-description dib'>(5)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>house cut fries</p>
-                <p className='item-description dib'>(5)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>maple syrup</p>
-                <p className='item-description dib'>(1.5)</p>
-              </li>
-              <li className='pb3 measure'>
-                <p className='item-description dib'>mac & cheese</p>
-                <p className='item-description dib'>(4)</p>
-              </li>
-            </ul>
-          </div> */}
+
           <div className='bottom' />
         </body>
       </div>

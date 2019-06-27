@@ -6,8 +6,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import GridMenu from './GridMenu';
-import Breakfast from './Breakfast';
+import GridMenu from './menu-tabs/GridMenu';
+import Breakfast from './menu-tabs/Breakfast';
+import Tacos from './menu-tabs/Tacos';
+import Beverages from './menu-tabs/Beverages';
 
 function TabContainer({ children, dir }) {
   return (
@@ -26,7 +28,8 @@ const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: theme.palette.background.paper,
     width: 'auto',
-    padding: 0
+    padding: 0,
+    height: 'auto'
   }
 }));
 
@@ -55,7 +58,9 @@ export default function FullWidthTabs() {
         >
           <Tab label='Breakfast' />
           <Tab label='Lunch & Dinner' />
-          <Tab label='Item Three' />
+          <Tab label='Tacos' />
+          <Tab label='Appetizers' />
+          <Tab label='Beverages' />
         </Tabs>
       </AppBar>
       <SwipeableViews
@@ -69,7 +74,13 @@ export default function FullWidthTabs() {
         <TabContainer dir={theme.direction}>
           <GridMenu />
         </TabContainer>
-        <TabContainer dir={theme.direction}>Item Three</TabContainer>
+        <TabContainer dir={theme.direction}>
+          <Tacos />
+        </TabContainer>
+        <TabContainer dir={theme.direction}>Apps</TabContainer>
+        <TabContainer dir={theme.direction}>
+          <Beverages />
+        </TabContainer>
       </SwipeableViews>
     </div>
   );

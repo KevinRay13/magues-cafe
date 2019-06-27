@@ -154,8 +154,10 @@ ul {
 
   .breakfast--container,
   .lunch--container {
-    column-count: 3;
+    column-count: 2;
     column-gap: 32px;
+    margin-top: 2em;
+    padding: 3em;
   }
 
   .breakfast--header {

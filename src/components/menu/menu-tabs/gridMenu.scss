@@ -10,10 +10,14 @@ $script: 'funkydori', sans-serif;
 //   padding: 0;
 // }
 .LDHeader {
-  width: 100vw;
+  width: 51vw;
+  margin: 0 auto;
+  margin-top: 2em;
+  text-align: center;
+  color: #c90b14;
 }
 .specialsContainer {
-  width: 100vw;
+  width: 90vw;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -21,10 +25,11 @@ $script: 'funkydori', sans-serif;
   justify-content: space-around;
   align-items: center;
   margin: 1em;
+  margin: 0 auto;
 }
 .f3 {
   font-size: 2em;
-  border: 1px dotted $grey;
+  // border: 1px dotted $grey;
 }
 p {
   margin: 0;
@@ -33,11 +38,13 @@ h3 {
   margin-bottom: 0;
 }
 .specialsBox {
-  width: 30em;
+  width: 25em;
   height: 14.5em;
-  border: 2px solid $grey;
+  border: 2px solid #c90b14;
+  margin: 0 auto;
   margin: 0.5em;
   border-radius: 15px;
+  color: $grey;
 }
 .specialTitle {
   font-size: 1.5em;
@@ -80,7 +87,7 @@ ul {
   border-radius: 10px;
 }
 .green {
-  color: $grey;
+  color: #c90b14;
 }
 
 .price,
@@ -102,6 +109,8 @@ ul {
 
 .bdb {
   border-bottom: 2px dotted $brown;
+  width: 52vw;
+  margin: 0 auto;
 }
 
 .bdt {

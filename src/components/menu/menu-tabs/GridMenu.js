@@ -284,16 +284,16 @@ class GridMenu extends React.Component {
             <div className='specialsBox'>
               <h3 className='specialTitle'>Fajita's by the Pound</h3>
               <h4>
-                One pound of chicken, beef or combination fo both with bell
+                One pound of chicken, beef or combination of both with bell
                 peppers and onions. Guacamole, charro beans, rice, and six
                 tortillas.
               </h4>
               <h4>$23.95</h4>
             </div>
           </div>
-          <div className='lunch--header pt3 pb3 bdb mb3'>
-            <div />
-          </div>
+          {/* <div className='lunch--header pt3 pb3 bdb mb3'>
+            <div /> */}
+          {/* </div> */}
           <div className='items--container lunch--container'>
             <h3 className='cubano f3 tracked green pt2'>Childs Plates</h3>
             <p className='item-description i pt2 pb3'>

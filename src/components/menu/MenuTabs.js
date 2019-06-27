@@ -10,6 +10,7 @@ import GridMenu from './menu-tabs/GridMenu';
 import Breakfast from './menu-tabs/Breakfast';
 import Tacos from './menu-tabs/Tacos';
 import Beverages from './menu-tabs/Beverages';
+import Appetizers from './menu-tabs/Appetizers';
 
 function TabContainer({ children, dir }) {
   return (
@@ -77,7 +78,9 @@ export default function FullWidthTabs() {
         <TabContainer dir={theme.direction}>
           <Tacos />
         </TabContainer>
-        <TabContainer dir={theme.direction}>Apps</TabContainer>
+        <TabContainer dir={theme.direction}>
+          <Appetizers />
+        </TabContainer>
         <TabContainer dir={theme.direction}>
           <Beverages />
         </TabContainer>

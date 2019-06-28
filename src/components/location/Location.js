@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 
 import './location.scss';
 import LocationCarousel from './LocationCarousel.js';
-
+var ReactDOM = require('react-dom');
 class Location extends Component {
+  componentDidMount() {
+    ReactDOM.findDOMNode(this).scrollIntoView();
+  }
+
   render() {
     return (
-      <div className='locationPage'>
+      <div className='locationPage' ref={ref => (this._div = ref)}>
         <div>
           <header className='locationHeader'>
             <h1 className='revTitle'>Location</h1>

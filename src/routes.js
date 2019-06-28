@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import About from './components/about/About';
 import Location from './components/location/Location';
 import Menu from './components/menu/Menu';
+import ScrollToTop from './components/nav/ScrollToTop';
 
 export default (
   <Switch>

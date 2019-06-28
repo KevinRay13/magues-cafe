@@ -37,6 +37,28 @@ p {
 h3 {
   margin-bottom: 0;
 }
+.MuiTabs-scroller {
+  flex-grow: 0;
+}
+.MuiTabs-flexContainer {
+  justify-content: center;
+}
+#tabsContainer {
+  margin-top: 1em;
+  height: auto;
+  width: 100vw;
+}
+ul.slick-dots {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.slick-dots li.slick-active button:before {
+  color: #c90b14 !important;
+}
+.slick-dots li button:before {
+  color: #9f0109 !important;
+}
+
 .specialsBox {
   width: 25em;
   height: 14.5em;

@@ -10,7 +10,7 @@ class Home extends Component {
       <div className='home-page'>
         <div className='banner-image' />
         <div className='belowBanner'>
-          <div className='logoBg'>
+          <div className=''>
             <img src='magueslogo.png' alt='' className='logoHome' />
           </div>
           <TextCarousel />

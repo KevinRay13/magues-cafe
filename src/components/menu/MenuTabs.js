@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: theme.palette.background.paper,
     width: 'auto',
-    padding: 0,
+
     height: 'auto'
   }
 }));
@@ -48,14 +48,15 @@ export default function FullWidthTabs() {
   }
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id='tabsContainer'>
       <AppBar position='static' color='default'>
         <Tabs
           value={value}
           onChange={handleChange}
           indicatorColor='primary'
           textColor='primary'
-          centered
+          variant='scrollable'
+          scrollButtons='auto'
         >
           <Tab label='Breakfast' />
           <Tab label='Lunch & Dinner' />

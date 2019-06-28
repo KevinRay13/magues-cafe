@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
 import './contact.scss';
-
+var ReactDOM = require('react-dom');
 class Contact extends Component {
+  componentDidMount() {
+    ReactDOM.findDOMNode(this).scrollIntoView();
+  }
+
   render() {
     return (
-      <div>
+      <div ref={ref => (this._div = ref)}>
+        <div className='locationPage' />
         <div className='contactHeader'>
           <h1 className='revTitle'>Contact</h1>
         </div>

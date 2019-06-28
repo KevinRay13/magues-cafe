@@ -25,7 +25,6 @@ ReactGA.initialize('UA-142288691-1');
 history.listen((location, action) => {
   window.scrollTo(0, 0);
   ReactGA.pageview(location.pathname + location.search);
-  console.log(location.pathname);
 });
 
 function App() {

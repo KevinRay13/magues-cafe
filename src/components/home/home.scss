@@ -213,12 +213,13 @@ body {
   height: 2.5em;
   background-repeat: no-repeat;
   margin: 0 auto;
-  color: black;
+  color: rgb(85, 84, 84) !important;
   font-family: 'Atma', cursive;
   font-size: 4rem;
   text-align: center;
   line-height: 2.5em;
   margin-bottom: 0;
+  border-radius: 35%;
 }
 .revSubTitle {
   font-family: 'Atma', cursive;

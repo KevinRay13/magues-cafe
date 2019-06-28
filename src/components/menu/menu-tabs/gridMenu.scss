@@ -37,11 +37,11 @@ p {
 h3 {
   margin-bottom: 0;
 }
-.MuiTabs-scroller {
-  flex-grow: 0;
-}
+// .MuiTabs-scroller {
+//   flex-grow: 0;
+// }
 .MuiTabs-flexContainer {
-  justify-content: center;
+  width: 100vw;
 }
 #tabsContainer {
   margin-top: 1em;
@@ -163,6 +163,11 @@ ul {
 .sides--container {
   column-count: 2;
   column-gap: 32px;
+}
+@media (min-width: 630px) {
+  .PrivateTabScrollButton-root-47 {
+    display: none;
+  }
 }
 
 @media (min-width: 600px) {

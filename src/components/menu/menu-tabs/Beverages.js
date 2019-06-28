@@ -5,7 +5,7 @@ class Beverages extends React.Component {
   render() {
     return (
       <div className='GridMenu'>
-        <body className='pa3 pa4-ns pa5-l '>
+        <div className='pa3 pa4-ns pa5-l '>
           <div className='lunch--header pt3 pb3 bdb mb3'>
             <div className=''>
               <h2 className='LDHeader'>Beverages</h2>
@@ -134,7 +134,7 @@ class Beverages extends React.Component {
           </div>
 
           <div className='bottom' />
-        </body>
+        </div>
       </div>
     );
   }

@@ -14,7 +14,7 @@ import Appetizers from './menu-tabs/Appetizers';
 
 function TabContainer({ children, dir }) {
   return (
-    <Typography component='div' dir={dir} style={{}}>
+    <Typography component='div' dir={dir} style={{ width: '100vw' }}>
       {children}
     </Typography>
   );
@@ -27,10 +27,9 @@ TabContainer.propTypes = {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    backgroundColor: theme.palette.background.paper,
-    width: 'auto',
-
-    height: 'auto'
+    flexGrow: 3,
+    width: '100%',
+    backgroundColor: theme.palette.background.paper
   }
 }));
 
@@ -56,7 +55,7 @@ export default function FullWidthTabs() {
           indicatorColor='primary'
           textColor='primary'
           variant='scrollable'
-          scrollButtons='auto'
+          scrollButtons='on'
         >
           <Tab label='Breakfast' />
           <Tab label='Lunch & Dinner' />

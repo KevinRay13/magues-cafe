@@ -9,7 +9,7 @@ class GridMenu extends React.Component {
           <div className='lunch--header pt3 pb3 bdb mb3'>
             <div className='long'>
               <h2 className='LDHeader'>Lunch & Dinner</h2>
-              <p>
+              <p className='miniHeader'>
                 All plates served with beans & rice, 2 tortillas, lettuce &
                 tomato
               </p>

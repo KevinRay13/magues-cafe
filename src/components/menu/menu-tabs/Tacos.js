@@ -9,7 +9,7 @@ class Tacos extends React.Component {
           <div className='lunch--header pt3 pb3 bdb mb3'>
             <div className=''>
               <h2 className='LDHeader'>Tacos</h2>
-              <p>All Tacos Served All Day</p>
+              <p className='miniHeader'>All Tacos Served All Day</p>
             </div>
           </div>
           <div className='items--container breakfast--container'>
@@ -254,6 +254,7 @@ class Tacos extends React.Component {
                 </h3>
                 <p className='item-description'>Sat & Sun only</p>
               </li>
+              <div style={{ height: '1em' }} />
               <div className='tacoBox'>
                 <p className='item-description'>
                   (served with onion and cilantro on corn)

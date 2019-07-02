@@ -118,6 +118,7 @@ ul {
 .tacoBox {
   border: 2px solid #c90b14;
   max-width: 45vw;
+  margin-top: 1em;
   margin-bottom: 1em;
   margin: 0 auto;
 
@@ -146,21 +147,25 @@ ul {
 }
 
 .bdb {
-  border-bottom: 2px dotted $brown;
+  border-bottom: 2px solid $brown;
   width: 52vw;
+  margin: 1em;
   margin: 0 auto;
 }
 
 .bdt {
-  border-top: 2px dotted $brown;
+  border-top: 2px solid $brown;
+  margin: 1em;
 }
 
 .bdr {
-  border-right: 2px dotted $brown;
+  border-right: 2px solid $brown;
+  margin: 1em;
 }
 
 .bdl {
-  border-left: 2px dotted $brown;
+  border-left: 2px solid $brown;
+  margin: 1em;
 }
 
 .square-icon {

@@ -32,6 +32,9 @@ const useStyles = makeStyles(theme => ({
     height: 'auto',
 
     backgroundColor: theme.palette.background.paper
+  },
+  colors: {
+    primary: '#c90b14'
   }
 }));
 
@@ -58,6 +61,7 @@ export default function FullWidthTabs() {
           textColor='primary'
           variant='scrollable'
           scrollButtons='on'
+          className={classes.colors}
         >
           <Tab label='Breakfast' />
           <Tab label='Lunch & Dinner' />

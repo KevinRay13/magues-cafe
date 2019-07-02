@@ -199,7 +199,7 @@ class GridMenu extends React.Component {
               </li>
               <li className='pb3 pt1 measure'>
                 <h3 className='din ttu tracked f6'>
-                  Tamale <br />
+                  Tamales <br />
                   <p className='item-description' />
                   <span className='price fw4 baskerville'>One ($1.00)</span>
                   <br />

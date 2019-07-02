@@ -132,9 +132,8 @@ class Beverages extends React.Component {
               </li>
             </ul>
           </div>
-
-          <div className='bottom' />
         </div>
+        <div className='bottom' />
       </div>
     );
   }

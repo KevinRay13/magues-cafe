@@ -7,7 +7,7 @@ class GridMenu extends React.Component {
       <div className='GridMenu'>
         <div className='pa3 pa4-ns pa5-l '>
           <div className='lunch--header pt3 pb3 bdb mb3'>
-            <div className=''>
+            <div className='long'>
               <h2 className='LDHeader'>Lunch & Dinner</h2>
               <p>
                 All plates served with beans & rice, 2 tortillas, lettuce &

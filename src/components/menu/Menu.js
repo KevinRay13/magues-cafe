@@ -8,6 +8,9 @@ class Menu extends Component {
   componentDidMount() {
     ReactDOM.findDOMNode(this).scrollIntoView();
   }
+  // componentDidUpdate() {
+  //   this.swipeableActions.updateHeight();
+  // }
   render() {
     return (
       <div className='home-page' ref={ref => (this._div = ref)}>
@@ -19,9 +22,9 @@ class Menu extends Component {
         <div className='PCContainer'>
           <PlatesCarousel />
         </div>
-        <div className='menuTabs'>
-          <MenuTabs />
-        </div>
+        {/* <div className='menuTabs'> */}
+        <MenuTabs />
+        {/* </div> */}
         {/* <div><GridMenu /></div> */}
       </div>
     );

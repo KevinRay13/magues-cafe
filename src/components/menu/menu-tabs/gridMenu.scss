@@ -38,6 +38,9 @@ $script: 'funkydori', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.00938em;
 }
+ul {
+  height: auto;
+}
 .f3 {
   font-size: 2em;
   // border: 1px dotted $grey;
@@ -115,7 +118,9 @@ ul {
 .tacoBox {
   border: 2px solid #c90b14;
   max-width: 45vw;
+  margin-bottom: 1em;
   margin: 0 auto;
+
   padding: 1.5em;
   border-radius: 10px;
 }

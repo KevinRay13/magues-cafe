@@ -284,8 +284,9 @@ class Tacos extends React.Component {
               Chile, Sausage, Tomato, Onion, Potato, Beans
             </p>
           </div>
-          <div className='bottom' />
+          <div style={{ height: '1em' }} />
         </div>
+        <div className='bottom' />
       </div>
     );
   }

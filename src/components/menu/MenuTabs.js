@@ -27,8 +27,10 @@ TabContainer.propTypes = {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 3,
+    flexGrow: 1,
     width: '100%',
+    height: 'auto',
+
     backgroundColor: theme.palette.background.paper
   }
 }));
@@ -47,7 +49,7 @@ export default function FullWidthTabs() {
   }
 
   return (
-    <div className={classes.root} id='tabsContainer'>
+    <div className={classes.root}>
       <AppBar position='static' color='default'>
         <Tabs
           value={value}
@@ -68,6 +70,7 @@ export default function FullWidthTabs() {
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={value}
         onChangeIndex={handleChangeIndex}
+        animateHeight
       >
         <TabContainer dir={theme.direction}>
           <Breakfast />

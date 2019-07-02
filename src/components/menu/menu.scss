@@ -17,9 +17,14 @@ span.MuiTab-wrapper {
 .PCContainer {
   // margin-top: 2em;
 }
+.makeStyles-root-1 {
+  // overflow: hidden;
+  height: auto;
+}
 .menuTabs {
   width: 100vw;
-  height: auto;
+  // height: auto;
+  overflow: hidden;
 }
 .menuHeader {
   width: 100vw;

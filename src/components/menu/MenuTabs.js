@@ -32,10 +32,8 @@ const useStyles = makeStyles(theme => ({
     height: 'auto',
 
     backgroundColor: theme.palette.background.paper
-  },
-  colors: {
-    primary: '#c90b14'
   }
+  
 }));
 
 export default function FullWidthTabs() {

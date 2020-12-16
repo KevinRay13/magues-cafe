@@ -1,5 +1,4 @@
 import React from 'react';
-import { createMuiTheme } from '@material-ui/core/styles';
 
 import './App.css';
 
@@ -27,13 +26,7 @@ history.listen((location, action) => {
   window.scrollTo(0, 0);
   ReactGA.pageview(location.pathname + location.search);
 });
-const theme = createMuiTheme({
-  overrides: {
-    ripple: {
-      color: 'red'
-    }
-  }
-});
+
 
 function App() {
   return (
